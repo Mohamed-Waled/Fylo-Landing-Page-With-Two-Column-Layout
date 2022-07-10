@@ -20,8 +20,8 @@ This is a solution to the [Fylo landing page with two column layout challenge on
 
 ### Links
 
-- Solution URL: [Solution URL here]()
-- Live Site URL: [Live site URL here]()
+- Solution URL: [Solution URL here](https://www.frontendmentor.io/solutions/fylo-landing-page-with-two-column-layout-with-sass-P_2_uxEpYr)
+- Live Site URL: [Live site URL here](https://mohamed-waled.github.io/Fylo-Landing-Page-With-Two-Column-Layout/)
 
 ## My process
 
