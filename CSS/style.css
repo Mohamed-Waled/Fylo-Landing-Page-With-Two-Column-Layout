@@ -196,7 +196,7 @@ header .nav-bar ul li a:hover::after {
   font-size: 18px;
   margin: 1.5rem 2.5rem 1.5rem 0rem;
 }
-#team .part4 a {
+#team .part4 .link {
   color: hsl(170deg, 45%, 43%);
   width: 185px;
   display: -webkit-box;
@@ -204,17 +204,19 @@ header .nav-bar ul li a:hover::after {
   display: flex;
   -webkit-transition: 0.4s;
   transition: 0.4s;
+  cursor: pointer;
+  text-decoration: underline;
 }
-#team .part4 a img {
+#team .part4 .link img {
   margin-top: 2px;
   margin-left: 5px;
   -webkit-transition: 0.4s;
   transition: 0.4s;
 }
-#team .part4 a:hover {
+#team .part4 .link:hover {
   opacity: 0.7;
 }
-#team .part4 a:hover img {
+#team .part4 .link:hover img {
   margin-left: 15px;
 }
 #team .part4 .quote {
@@ -382,14 +384,12 @@ header .nav-bar ul li a:hover::after {
 .footer .part-2 ul li {
   list-style-type: none;
   margin: 0.5rem 0;
-}
-.footer .part-2 ul li a {
-  text-decoration: none;
   color: hsla(240deg, 80%, 98%, 0.7);
   -webkit-transition: 0.4s;
   transition: 0.4s;
+  cursor: pointer;
 }
-.footer .part-2 ul li a:hover {
+.footer .part-2 ul li:hover {
   color: hsl(224deg, 93%, 58%);
 }
 .footer .part-3 {
@@ -414,14 +414,12 @@ header .nav-bar ul li a:hover::after {
 .footer .part-3 ul li {
   list-style-type: none;
   margin: 0.5rem 0;
-}
-.footer .part-3 ul li a {
-  text-decoration: none;
   color: hsla(240deg, 80%, 98%, 0.7);
   -webkit-transition: 0.4s;
   transition: 0.4s;
+  cursor: pointer;
 }
-.footer .part-3 ul li a:hover {
+.footer .part-3 ul li:hover {
   color: hsl(224deg, 93%, 58%);
 }
 .footer .part-4 {
@@ -591,7 +589,7 @@ footer p a {
     font-size: 20px;
     margin: 1.5rem auto;
   }
-  #team .part4 a {
+  #team .part4 .link {
     margin: 0 auto;
   }
 
@@ -771,7 +769,7 @@ footer p a {
     font-size: 14px;
     margin: 1.5rem auto 1.5rem;
   }
-  #team .part4 a {
+  #team .part4 .link {
     margin: auto;
   }
   #team .part4 .quote {
