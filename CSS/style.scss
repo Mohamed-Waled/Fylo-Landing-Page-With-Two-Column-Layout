@@ -19,11 +19,15 @@ body {
 }
 
 header {
+  position: fixed;
+  background-color: white;
   width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 1.5rem 3rem;
+  top: 0;
+  transition: 0.4s;
   div {
     width: 150px;
     img {
@@ -62,13 +66,29 @@ header {
           width: 110%;
         }
       }
+      .sign {
+        padding: 0.5rem 1rem;
+        margin-top: -0.5rem;
+        border-radius: 5px;
+        background-color: $button-color;
+        a {
+          color: white;
+        }
+        a:hover {
+          color: unset;
+        }
+        a:hover::after {
+          width: unset;
+        }
+      }
     }
   }
 }
 
 #features {
   width: 95%;
-  margin: 1.5rem auto;
+  margin: 3rem auto 1.5rem;
+  padding-top: 100px;
   display: flex;
   flex-direction: row-reverse;
   align-items: center;
