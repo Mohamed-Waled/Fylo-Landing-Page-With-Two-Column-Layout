@@ -1,11 +1,12 @@
 let header = document.querySelector("header");
+let scroll1 = window.screenY;
 
-document.addEventListener("scroll", (e) => {
-  if (this.oldScroll > this.scrollY) {
+document.addEventListener("scroll", () => {
+  if (scroll1 > this.scrollY) {
     header.style.top = "0px";
-    this.oldScroll = this.scrollY;
+    scroll1 = this.scrollY;
   } else {
     header.style.top = "-100px";
-    this.oldScroll = this.scrollY;
+    scroll1 = this.scrollY;
   }
 });
