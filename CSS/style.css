@@ -24,7 +24,7 @@ header {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 1.5rem 3rem;
+  padding: 1.5rem 5rem;
   top: 0;
   -webkit-transition: 0.4s;
   transition: 0.4s;
@@ -81,6 +81,8 @@ header .nav-bar ul .sign {
   margin-top: -0.5rem;
   border-radius: 5px;
   background-color: hsl(224deg, 93%, 58%);
+  -webkit-box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.5);
+          box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.5);
 }
 header .nav-bar ul .sign a {
   color: white;
@@ -93,9 +95,9 @@ header .nav-bar ul .sign a:hover::after {
 }
 
 #features {
-  width: 95%;
-  margin: 3rem auto 1.5rem;
-  padding-top: 100px;
+  width: 100%;
+  margin: 6rem auto 1.5rem;
+  padding: 6.25rem 5rem 1rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -111,7 +113,7 @@ header .nav-bar ul .sign a:hover::after {
           justify-content: space-between;
 }
 #features .photo {
-  width: 45%;
+  width: 50%;
 }
 #features .photo img {
   max-width: 100%;
@@ -178,7 +180,7 @@ header .nav-bar ul .sign a:hover::after {
 #team {
   width: 100%;
   margin: -43px auto 0rem;
-  padding: 2rem 2.5rem 4rem;
+  padding: 2rem 5rem 4rem;
   background-color: hsl(240deg, 75%, 98%);
   display: -webkit-box;
   display: -ms-flexbox;
@@ -195,13 +197,13 @@ header .nav-bar ul .sign a:hover::after {
           justify-content: space-between;
 }
 #team .photo {
-  width: 45%;
+  width: 50%;
 }
 #team .photo img {
   max-width: 100%;
 }
 #team .part4 {
-  width: 47%;
+  width: 50%;
 }
 #team .part4 .text-2 {
   width: 100%;
@@ -289,9 +291,10 @@ header .nav-bar ul .sign a:hover::after {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 2rem 5rem;
 }
 #signin .text-3 {
   width: 45%;
@@ -340,8 +343,8 @@ header .nav-bar ul .sign a:hover::after {
   border: none;
   background-color: hsl(224deg, 93%, 58%);
   color: white;
-  -webkit-box-shadow: 2px 2px 5px 0px rgb(110, 61, 61);
-          box-shadow: 2px 2px 5px 0px rgb(110, 61, 61);
+  -webkit-box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.5);
+          box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.5);
   cursor: pointer;
   margin-top: 1rem;
   margin-left: -30%;
@@ -505,7 +508,7 @@ footer p a {
   }
 
   #features {
-    width: 90%;
+    width: 100%;
   }
 
   .team-shape {
@@ -543,7 +546,7 @@ footer p a {
   }
 
   #features {
-    width: 95%;
+    width: 100%;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -617,12 +620,12 @@ footer p a {
   #signin {
     width: 100%;
     height: 350px;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
   }
   #signin .text-3 {
-    width: 55%;
+    width: 45%;
     text-align: center;
   }
   #signin .text-3 h2 {
@@ -632,7 +635,7 @@ footer p a {
     width: 100%;
   }
   #signin .form2 {
-    width: 50%;
+    width: 45%;
   }
   #signin .form2 input {
     width: 80%;
@@ -667,7 +670,7 @@ footer p a {
 }
 @media (max-width: 426px) {
   header {
-    padding: 0.5rem 0.5rem;
+    padding: 1rem 0.5rem;
   }
   header div {
     width: 90px;
@@ -679,7 +682,7 @@ footer p a {
 
   #features {
     width: 100%;
-    margin: 2.5rem auto;
+    margin: 4rem auto;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -693,9 +696,10 @@ footer p a {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+    padding: 0.5rem;
   }
   #features .photo {
-    width: 90%;
+    width: 95%;
     margin: 0 auto;
   }
   #features .part2 {
@@ -767,7 +771,7 @@ footer p a {
   #team {
     width: 100%;
     margin: -10px auto;
-    padding: 0 0 1.5rem 0;
+    padding: 0.5rem 0.5rem 1.5rem;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -810,7 +814,6 @@ footer p a {
   }
 
   #signin {
-    border: 1px solid;
     height: 350px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -819,6 +822,7 @@ footer p a {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+    padding: 0.5rem;
   }
   #signin .text-3 {
     width: 95%;
@@ -893,5 +897,27 @@ footer p a {
 
   footer p {
     font-size: 10px;
+  }
+}
+@media (max-width: 426px) and (min-width: 321px) {
+  .team-shape {
+    display: none;
+  }
+
+  .team-shape-mobile {
+    display: none;
+  }
+}
+@media (max-width: 1439px) and (min-width: 1025px) {
+  .team-shape {
+    display: none;
+  }
+
+  .team-shape-mobile {
+    display: none;
+  }
+
+  #team {
+    margin-top: 15rem;
   }
 }
